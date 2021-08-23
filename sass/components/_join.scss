@@ -1,0 +1,42 @@
+.join {
+    min-width: 206px;
+    min-height: 80px;
+    margin-left: 70px;
+}
+
+.join-list {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.join-link {
+    display: block;
+    background-color: rgb(67, 68, 77);
+    color: #fff;
+    border-radius: 50%;
+    transition: background-color 250ms $time, color 250ms $time;
+
+    &:hover, &:focus {
+    background-color: $accent-color;
+    color: $primary-white-color;}
+}
+
+.join-link__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+
+}
+
+.join-list__item +.join-list__item {
+    margin-left: 10px;
+}
+
+.join-link__icon {
+    fill: currentColor;
+}
+

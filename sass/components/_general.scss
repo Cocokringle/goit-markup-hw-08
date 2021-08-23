@@ -1,0 +1,62 @@
+body {
+    background-color: $primary-fon-color;
+    color: $primary-text-color;
+
+    font-family: $font-family-Roboto;
+    letter-spacing: 0.03em;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+// Удаляем контур на формах и ссылках
+:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+// Cекции и контейнеры
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &--secondary-fon-color {
+    background-color: $secondary-fon-color;
+}
+
+    &--padding-top-none {
+    padding-top: 0px;
+}
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+// Скрытые заголовки 
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+// Сброс стилей ссылок на странице Портфолио 
+.projects-container__link {
+    text-decoration: none;
+    position: relative;
+}

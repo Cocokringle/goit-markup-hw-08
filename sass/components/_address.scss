@@ -1,0 +1,37 @@
+.address {
+    color: $primary-white-color;
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.address__link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    transition: color 250ms $time;
+
+}
+
+.address--footer-links .address__link:focus,
+.address--footer-links .address__link:hover {
+    color: $accent-color;
+}
+
+.address__link+.address__link {
+    margin-top: 9px;
+}
+
+.address--footer-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 9px;
+}
+
+.contacts-box {
+    justify-content: flex-start;
+}

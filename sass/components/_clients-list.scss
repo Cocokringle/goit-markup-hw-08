@@ -1,0 +1,38 @@
+.clients-list {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 215px;
+    padding-right: 215px;
+    justify-content: center;
+}
+
+.clients-list__item +.clients-list__item {
+    margin-left: 30px;
+}
+
+.clients-list__link {
+    display: block;
+    background-color: $primary-white-color;
+    color: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: border-color 250ms $time, color 250ms $time;
+
+    &:hover, &:focus {
+    border-color: $accent-color;
+    color: $accent-color;}
+
+}
+
+.clients-list__box {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-list__logo {
+    fill: currentColor;
+}

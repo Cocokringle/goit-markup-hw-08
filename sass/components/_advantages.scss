@@ -1,0 +1,20 @@
+.advantages {
+    display: flex;
+}
+
+.advantages .advantages__box +.advantages__box {
+    margin-left: 30px;
+}
+
+.advantage__icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+
+    border-radius: 4px;
+    background-color: $secondary-fon-color;
+}
