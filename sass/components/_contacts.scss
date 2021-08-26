@@ -5,8 +5,8 @@
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
     transition: color 250ms $time, fill 250ms $time;
 
     &:focus, &:hover {
@@ -15,7 +15,7 @@
 }
 
 .contacts-link__icon {
-    margin-right: 10px;
+    // margin-right: 10px;
     fill: currentColor;
     transition: color 250ms $time, fill 250ms $time;
 }
@@ -27,10 +27,10 @@
 }
 
 .contacts {
-    display: flex;
-    margin-left: auto;
+    // display: flex;
+    // margin-left: auto;
 }
 
 .contacts__item +.contacts__item {
-    margin-left: 50px;
+    // margin-left: 50px;
 }

@@ -23,7 +23,10 @@
 }
 
 .address__link+.address__link {
+    
+    @media screen and (min-width: 1200px) {
     margin-top: 9px;
+    }
 }
 
 .address--footer-links {
@@ -33,5 +36,22 @@
 }
 
 .contacts-box {
+    @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+    display: inline-flex;
+    flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
+    padding-left: 61px;
+    }
+
+    @media screen and (min-width: 1200px) {
+    justify-content: flex-start;
+    }
+    
 }

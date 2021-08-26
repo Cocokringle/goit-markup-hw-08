@@ -6,6 +6,7 @@
     text-transform: uppercase;
     margin-top: 0px;
     margin-bottom: 10px;
+    z-index: 999;
 }
 
 .text-title--inverse {
@@ -20,7 +21,12 @@
     bottom: 25px;
     right: 90px;
 }
-
+.text-title--center{
+    @media screen and (max-width: 1199px){
+       text-align: center; 
+    }
+    
+}
 .text {
     color: $secondary-text-color;
     font-size: 14px;

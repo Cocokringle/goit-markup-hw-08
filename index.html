@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,7 +66,7 @@
                             <use href="./images/icons.svg#icon-antenna"></use>
                         </svg>
                     </div>
-                    <h3 class="text-title">Внимание к деталям</h3>
+                    <h3 class="text-title text-title--center">Внимание к деталям</h3>
                     <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
 
@@ -76,7 +76,7 @@
                             <use href="./images/icons.svg#icon-clock"></use>
                         </svg>
                     </div>
-                    <h3 class="text-title">Пунктуальность</h3>
+                    <h3 class="text-title text-title--center">Пунктуальность</h3>
                     <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
 
@@ -86,7 +86,7 @@
                             <use href="./images/icons.svg#icon-diagram"></use>
                         </svg>
                     </div>
-                    <h3 class="text-title">Планирование</h3>
+                    <h3 class="text-title text-title--center">Планирование</h3>
                     <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
 
@@ -96,7 +96,7 @@
                             <use href="./images/icons.svg#icon-astronaut"></use>
                         </svg>
                     </div>
-                    <h3 class="text-title">Современные технологии</h3>
+                    <h3 class="text-title text-title--center">Современные технологии</h3>
                     <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
@@ -106,11 +106,17 @@
       <!--Чем мы занимаемся-->
       <section class="section section--padding-top-none">
           <div class="container">
-            <h2 class="section-title">Чем мы занимаемся</h2>
+            <h2 class="section-title section-title-hidden">Чем мы занимаемся</h2>
             <ul class="work-list">
                 <li class="work-list__item">
                     <div class="work-box">
-                        <img src="./images/website.jpg" class="work-list__img" alt="делаем сайты" width="370" height="294">
+                        <img
+                        srcset="./images/website-x1.jpg 1x,./images/website-x2.jpg 2x" 
+                        src="./images/website.jpg" 
+                        class="work-list__img" 
+                        alt="делаем сайты" 
+                        width="370" 
+                        height="294">
                         <h3 class="text-title text-title--lighten">Десктопные приложения</h3>
                     </div>
                     
@@ -118,14 +124,26 @@
 
                 <li class="work-list__item">
                     <div class="work-box">
-                        <img src="./images/mobileapp.jpg" class="work-list__img" alt="создаем мобильные приложения" width="370" height="294">
+                        <img 
+                        srcset="./images/mobileapp-x1.jpg 1x,./images/mobileapp-x2.jpg 2x" 
+                        src="./images/mobileapp.jpg" 
+                        class="work-list__img" 
+                        alt="создаем мобильные приложения" 
+                        width="370" 
+                        height="294">
                         <h3 class="text-title text-title--lighten">Мобильные приложения</h3>
                     </div>
                 </li>
 
                 <li class="work-list__item">
                     <div class="work-box">
-                        <img src="./images/design.jpg" class="work-list__img" alt="разрабатываем дизайн" width="370" height="294">
+                        <img 
+                        srcset="./images/design-x1.jpg 1x,./images/design-x2.jpg 2x" 
+                        src="./images/design.jpg" 
+                        class="work-list__img" 
+                        alt="разрабатываем дизайн" 
+                        width="370" 
+                        height="294">
                         <h3 class="text-title text-title--lighten">Дизайнерские решения</h3>
                     </div>
                 </li>
@@ -139,7 +157,15 @@
             <h2 class="section-title">Наша команда</h2>
             <ul class="team">
                 <li class="team__box">
-                    <img src="./images/igor.jpg" class="team__photo" alt="Игорь Демьяненко" width="270" height="260">
+                    <img 
+                    srcset="./images/igor-x1.jpg 1x,./images/igor-x2.jpg 2x"
+                    src="./images/igor.jpg" 
+                    class="team__photo" 
+                    alt="Игорь Демьяненко" 
+                    width="450"
+                    height="460"
+                    >
+
                     <div class="team__name-box">
                         <h3 class="team__text-title-name">Игорь Демьяненко</h3>
                         <p lang="en" class="team__text-position">Product Designer</p>
@@ -186,7 +212,13 @@
                 </li>
 
                 <li class="team__box">
-                    <img src="./images/olga.jpg" class="team__photo" alt="Ольга Репина" width="270" height="260">
+                    <img 
+                    srcset="./images/olga-x1.jpg 1x,./images/olga-x2.jpg 2x"
+                    src="./images/olga.jpg" 
+                    lass="team__photo" 
+                    alt="Ольга Репина" 
+                    width="450" 
+                    height="460">
                     <div class="team__name-box">
                         <h3 class="team__text-title-name">Ольга Репина</h3>
                         <p lang="en" class="team__text-position">Frontend Developer</p>
@@ -233,7 +265,13 @@
                 </li>
 
                 <li class="team__box">
-                    <img src="./images/nicholas.jpg" class="team__photo" alt="Николай Тарасов" width="270" height="260">
+                    <img 
+                    srcset="./images/nicholas-x1.jpg 1x,./images/nicholas-x2.jpg 2x"
+                    src="./images/nicholas.jpg" 
+                    class="team__photo" 
+                    alt="Николай Тарасов" 
+                    width="450" 
+                    height="460">
                     <div class="team__name-box">
                         <h3 class="team__text-title-name">Николай Тарасов</h3>
                         <p lang="en" class="team__text-position">Marketing</p>
@@ -280,7 +318,13 @@
                 </li>
                 
                 <li class="team__box">
-                    <img src="./images/michael.jpg" class="team__photo" alt="Михаил Ермаков" width="270" height="260">
+                    <img 
+                    srcset="./images/michael-x1.jpg 1x,./images/michael-x2.jpg 2x"
+                    src="./images/michael.jpg" 
+                    class="team__photo" 
+                    alt="Михаил Ермаков" 
+                    width="450" 
+                    height="460">
                     <div class="team__name-box">
                         <h3 class="team__text-title-name">Михаил Ермаков</h3>
                         <p lang="en" class="team__text-position">UI Designer</p>
@@ -448,7 +492,7 @@
             <!-- Форма подписки на рассылку -->
             <div class="footer-form-box">
                 <form сlass="footer-form">
-                    <h3 class="text-title text-title--inverse">Подпишитесь на рассылку</h3>
+                    <h3 class="text-title text-title--inverse text-title--center">Подпишитесь на рассылку</h3>
                     <div class="subscribe-box">
                         <input type="email" name="mail" placeholder="E-mail" class="subscribe-box__mail-field">
                         <button type="submit" class="subscribe-box__btn">Подписаться</button>
