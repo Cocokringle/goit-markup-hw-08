@@ -87,17 +87,29 @@
     line-height: 0.86;
 }
 
-.modal-form__field-check-label {
+
+.modal-form__field-check-label-text{
+    font-size: 12px;
+    line-height: 0.86;
+    letter-spacing: 0.03em;
     color: $secondary-text-color;
+    transition: transform 250ms $time;
+    margin: 0;
+    
+
+    @media screen and (min-width: 1200px) {
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-
-    transition: transform 250ms $time;
+    }
+    
 }
 
 .modal-form__field-check-link {
+    font-size: 12px;
+    line-height: 0.86;
+    letter-spacing: 0.03em;
     color: $accent-color;
+    
 }
 
 // Стили текста в карточках на странице Портфолио 

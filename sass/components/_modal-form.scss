@@ -3,7 +3,14 @@
     margin-top: 40px;
     margin-right: auto;
     margin-bottom: 20px;
+    
+    @media screen and (min-width: 480px) {
+    width: 370px;
+    }
+
+    @media screen and (min-width: 1200px) {
     width: 448px;
+    }
 
 }
 
@@ -76,9 +83,16 @@
 }
 
 .modal-form__field-check {
+    
     display: flex;
     align-items: center;
+    @media screen and (min-width: 480px) {
+        width: 370px;
+    }
 
+    @media screen and (min-width: 1200px) {
+        width: 425px;
+    }
 }
 
 .modal-form__checkbox {
