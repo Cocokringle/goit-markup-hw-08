@@ -4,11 +4,11 @@
     margin-right: auto;
     margin-bottom: 20px;
     
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: $mobile) {
     width: 370px;
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
     width: 448px;
     }
 
@@ -86,11 +86,11 @@
     
     display: flex;
     align-items: center;
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: $mobile) {
         width: 370px;
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
         width: 425px;
     }
 }

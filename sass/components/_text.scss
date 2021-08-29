@@ -22,7 +22,7 @@
     right: 90px;
 }
 .text-title--center{
-    @media screen and (max-width: 1199px){
+    @media screen and (max-width: $before-desktop){
        text-align: center; 
     }
     
@@ -97,7 +97,7 @@
     margin: 0;
     
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
     font-size: 14px;
     line-height: 1.71;
     }

@@ -1,6 +1,6 @@
 .contacts-link {
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $tablet) {
     display: flex;
     align-items: center;
     }
@@ -20,10 +20,10 @@
 .contacts-link__icon {
     fill: currentColor;
     transition: color 250ms $time, fill 250ms $time;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $tablet) {
     margin-right: 8px;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
     margin-right: 10px;
     }
     
@@ -36,13 +36,13 @@
 }
 
 .contacts {
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: $before-tablet) {
     display: none;
     }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $tablet) {
     margin-left: auto;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
     display: flex;
     margin-left: auto;
     }
@@ -50,7 +50,7 @@
 }
 .contacts__item{
     &:not(:last-child){
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: $tablet) {
         margin-bottom: 10px;
         }
     }
@@ -60,7 +60,7 @@
 
 .contacts__item +.contacts__item {
     
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
     margin-left: 50px;
     }
 }

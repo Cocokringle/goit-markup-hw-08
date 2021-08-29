@@ -35,15 +35,13 @@
     border: none;
     cursor: pointer;
     background-color: transparent;
-    outline: 1px solid red;
     fill: #212121;
-    color: #212121;
     transition: fill 250ms $time;
 
     &:hover {
         fill: $accent-color;
     }
-    @media (min-width: 768px) {
+    @media (min-width: $tablet) {
         display: none;
     }
 }

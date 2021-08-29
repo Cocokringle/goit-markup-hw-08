@@ -1,18 +1,18 @@
 .footer-form-box {
     
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
     margin-left: 93px;
     }
 }
 
 .subscribe-box {
 
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: $before-desktop) {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
     display: flex;
     }
 }
@@ -27,10 +27,10 @@
     border-radius: 4px;
     background-color: #2f303a;
     color: $primary-white-color;
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: $before-desktop) {
     width: 450px;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
     width: 358px;
     }
     
@@ -62,10 +62,10 @@
     background-image: url(../images/svg/send.svg);
     background-size: contain;}
 
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: $before-desktop) {
     margin-top: 20px;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
     
     margin-left: 12px;
     }

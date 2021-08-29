@@ -1,12 +1,12 @@
 .projects-container {
 
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
+    @media screen and (min-width: $tablet) and (max-width: $before-desktop) {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
     }
     
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
     display: flex;
     flex-wrap: wrap;
     }
@@ -17,17 +17,17 @@
     transition: box-shadow 250ms $time;
 
     &:not(:last-child) {
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: $before-tablet) {
         margin-bottom: 30px;
         
     }
     }
 
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
+    @media screen and (min-width: $tablet) and (max-width: $before-desktop) {
     width: calc((100% - 4 * 15px) / 2);
     margin: 15px;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
         width: calc((100% - 60px) / 3);
         margin-right: 30px;
         margin-bottom: 30px;

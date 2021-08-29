@@ -1,28 +1,28 @@
 .advantages {
 
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
+    @media screen and (min-width: $tablet) and (max-width: $before-desktop) {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
     display: flex;
     }
 }
 .advantages__box {
    &:not(:last-child) {
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: $before-tablet) {
         margin-bottom: 30px;
     }
 }
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
+    @media screen and (min-width: $tablet) and (max-width: $before-desktop) {
     width: calc((100% - 4 * 15px) / 2);
     margin: 15px;
 }
 }
 .advantages .advantages__box +.advantages__box {
     
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
     margin-left: 30px;
     }
 }
@@ -33,14 +33,14 @@
     background-color: $secondary-fon-color;
     
 
-    @media screen and (min-width: 480px){
+    @media screen and (min-width: $mobile){
         padding: 25px 190px 25px 190px;
     }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $tablet) {
         padding: 25px 145px 25px 145px;
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
     display: flex;
     justify-content: center;
     align-items: center;
