@@ -17,20 +17,24 @@
 }
 .mobile-menu-container .mobile-menu-btn {
     position: absolute;
-    top: 0px;
+    top: 10px;
     right: 15px;
     color: $primary-fon-color;
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    
 }
 
 .mobile-menu-btn {
-    min-height: 40px;
-    min-width: 40px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: auto;
     margin-top: 10px;
-    margin-right: 10px;
     margin-bottom: 10px;
     border: none;
     cursor: pointer;
@@ -45,6 +49,13 @@
         display: none;
     }
 }
+.mobile-site-nav{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .mobile-nav-list__link {
     display: block;
     padding-top: 32px;
@@ -65,9 +76,7 @@
         color: $accent-color;
     }
 }
-.mobile-contacts{
-    margin-top: 302px;
-}
+
 .mobile-contacts-link {
     display: block;
     color: $secondary-text-color;

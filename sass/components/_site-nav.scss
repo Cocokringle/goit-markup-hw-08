@@ -58,6 +58,9 @@
 .nav-list__link:hover::after {
     transform: scaleX(1);
 }
-.nav-list__link--current {
+.nav-list__link--current.nav-list__link::after {
+    transform: scaleX(1);
+}
+.nav-list__link--current{
     color: $accent-color;
 }

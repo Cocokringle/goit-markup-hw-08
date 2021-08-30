@@ -7,7 +7,11 @@
 }
 
 }
-
+.section--padding-top-none {
+    @media (max-width:$before-desktop) {
+        display: none;
+    }
+}
 .work-list__item +.work-list__item {
     @media screen and (min-width:$desktop) {
     margin-left: 30px;
